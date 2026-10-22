@@ -1,0 +1,21 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Local database
+backend/tele.db
+
+# Do not push the root README
+/README.md
+.idea/
